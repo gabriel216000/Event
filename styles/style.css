@@ -20,7 +20,11 @@ body {
 
 /*Here we have the background in the header */
 header {
-    background-color: #D6F8B8;
+    background-image: url("../images/headerimg.png");
+    background-repeat: no-repeat;
+    background-size:
+    background-position: center;
+    padding-bottom: 50px;
 }
 
 /*Here we customize how the buttons in the header
