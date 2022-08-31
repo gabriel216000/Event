@@ -1,41 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebSwitch</title>
-    
-<!--Favicon start-->
-<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-<link rel="manifest" href="favicon/site.webmanifest">
-<!--Favicon end-->
 
-<!--Here is the import of the CSS file-->
-<link rel="stylesheet" href="styles/style.css">
+    <!--Favicon start-->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <!--Favicon end-->
 
-</head>
-<body>
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Here is the import of the CSS file-->
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  
+  
+  <body>
     <header>
-        <button class="headerbutton">About</button>
-        <button class="headerbutton">Speakers</button>
-        <button class="headerbutton">Practical information</button>
-        <button class="headerbutton">Sign up</button>
+      <button class="headerbutton">About</button>
+      <button class="headerbutton">Speakers</button>
+      <button class="headerbutton">Practical information</button>
+      <button class="headerbutton">Sign up</button>
     </header>
     <main>
+      <div class="introduction">
+        <h1>WebSwitch <br>2022</h1>
+        <p class="landd">Harpa <br>02/09/2022</p>
+      </div>
+      <section id="about-section">
         <div>
-         <h1>WebSwitch</h1>
-         <h1>2022</h1>
-         <p>Harpa</p>
-         <p>02/09/2022</p>
+          <p>
+            WebSwitch is hosted by the<br />icelandic web development<br />industry.
+            This event is for everyone who<br />is new to the industry or<br />simply
+            curious about it. The main purpose of WebSwitch<br />is to generate
+            interest in web<br />development and empower people<br />to make
+            connections within the<br />icelandic tech community
+          </p>
+        </div>
+      </section>
+      <section class="signup-section">
+        <div>
+          <p>Sign up for free!</p>
+          <input placeholder="Name" />
+          <input placeholder="Email" />
+          <input placeholder="Phone number" />
+          <button class="submit-button">Submit</button>
         </div>
         <div>
-            <p>WebSwitch is hosted by the<br>icelandic web development<br>industry.</p>
-            <p>This event is for everyone who<br>is new to the industry or<br>sinply curious about it.</p>
-            <p>The main purpose of WebSwitch<br>is to generate interest in web<br>development and empower people<br>to make connections within the<br>icelandic tech community</p>
+          <p>
+            WebSwitch is a free eventDue to limited seating guests are asked to
+            sign up so we can estimate a number of seats. Signed up guests will
+            be prioritized in case of a full house.
+          </p>
         </div>
+      </section>
+      <!--Footer section-->
+      <footer>
+        <p>Follow us on social media</p>
+        <div>
+          <a href="facebook"
+            ><img src="images/facebook 1.svg" alt="Facebook icon"
+          /></a>
+          <a href="instagram"
+            ><img src="images/instagram 1.svg" alt="Instagram icon"
+          /></a>
+          <a href="twitter"
+            ><img src="images/twitter 1.svg" alt="Twitter icon"
+          /></a>
+        </div>
+
+        <div><p>Contact us at 999 9999 or info@webswitch.com</p></div>
+      </footer>
     </main>
-</body>
+  </body>
 </html>
