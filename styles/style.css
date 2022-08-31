@@ -5,8 +5,7 @@
     outline: inherit;
     background: transparent;
     color: inherit;
-    
-    
+    margin-left: 100px;
 }
 /*Here we add a hover over the buttons in the header */
 .headerbutton:hover {
