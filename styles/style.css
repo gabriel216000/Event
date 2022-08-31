@@ -19,11 +19,39 @@ body {
     outline: inherit;
     background: transparent;
     color: inherit;
+    margin-left: 100px;
+    background-color: #D6F8B8;
 }
 
 
 /*Here we add a hover over the buttons in the header */
 .headerbutton:hover {
     opacity: 0.7;
+}
+
+
+header {
+    padding-bottom: 200px;
+    background-color: #D6F8B8;
+    text-align: center;
+    ;
+}
+
+.introduction {
+    background-color: #D6F8B8;
+    padding-top: 20px;
+    padding-bottom: -40px;
+}
+
+h1 {
+    font-size: 100px;
+    padding-left: 50px;
+}
+
+.landd {
+    color: white;
+    font-size: 40px;
+    padding-left: 50px;
+    padding-bottom: 200px;
 }
 
