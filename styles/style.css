@@ -5,23 +5,26 @@
     --text-color: #000000;
     --input-background: #ffffff;
 }
-
+/*Here is the font applied to the webpage */
 body {
     font-family: 'Roboto Mono', monospace;
 
 }
 
 
-/*Here we customize how the buttons in the header look like */
+/*Here we customize how the buttons in the header 
+look like and their location */
 .headerbutton {
     font-family: 'Roboto Mono', monospace;
+    font-weight: 800;
     cursor: pointer;
     border: none;
     outline: inherit;
     background: transparent;
     color: inherit;
-    margin-left: 100px;
-    background-color: #D6F8B8;
+    margin-left: 50px;
+    padding-top: 20px;
+    
 }
 
 
@@ -30,18 +33,29 @@ body {
     opacity: 0.7;
 }
 
+<<<<<<< HEAD
 
 .header {
     padding-bottom: 200px;
+=======
+/*Here we have the background in the header */
+header {
+    
+>>>>>>> afcd01c88195f0b06fe2b4a3069b3b32e6122631
     background-color: #D6F8B8;
-    text-align: center;
-    ;
 }
+/*Location of the buttons on top of the page */
+.buttons {
+ text-align: center;
+}
+    
 
+/*Customization of the headline */
 .introduction {
     background-color: #D6F8B8;
-    padding-top: 20px;
-    padding-bottom: -40px;
+    font-weight: 150;
+    padding-top: 100px;
+
 }
 
 h1 {
