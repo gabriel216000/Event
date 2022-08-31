@@ -5,14 +5,15 @@
     --text-color: #000000;
     --input-background: #ffffff;
 }
-
+/*Here is the font applied to the webpage */
 body {
     font-family: 'Roboto Mono', monospace;
 
 }
 
 
-/*Here we customize how the buttons in the header look like */
+/*Here we customize how the buttons in the header 
+look like and their location */
 .headerbutton {
     font-family: 'Roboto Mono', monospace;
     font-weight: 800;
@@ -23,7 +24,7 @@ body {
     color: inherit;
     margin-left: 50px;
     padding-top: 20px;
-    background-color: #D6F8B8;
+    
 }
 
 
@@ -32,19 +33,22 @@ body {
     opacity: 0.7;
 }
 
-
+/*Here we have the background in the header */
 header {
-    padding-bottom: 200px;
+    
     background-color: #D6F8B8;
-    text-align: center;
-    ;
 }
+/*Location of the buttons on top of the page */
+.buttons {
+ text-align: center;
+}
+    
 
+/*Customization of the headline */
 .introduction {
     background-color: #D6F8B8;
-    padding-top: 20px;
-    padding-bottom: -40px;
-    margin-top: -50px;
+    font-weight: 150;
+    padding-top: 100px;
 
 }
 
