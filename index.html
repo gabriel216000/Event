@@ -50,16 +50,22 @@
     <main>
       <!--About section-->
 
-      <section class="about" id="about">
+      <section class="flex-container" id="about">
         <div>
-          <h2>What is WebSwitch?</h2>
+          <h2 id="header1">What is WebSwitch?</h2>
+          <div class="about-text">
           <p>
             WebSwitch is an annual public speaking event hosted by the icelandic
-            web development industry. This event is for everyone who is new to
-            the industry or simply curious about it. The main purpose of
+            web development industry.</p>
+            <p> This event is for everyone who is new to
+            the industry or simply curious about it. 
+          </p>
+            <p>The main purpose of
             WebSwitch is to generate interest in web development and empower
             people to make connections within the icelandic tech community.
           </p>
+        </div>
+          
         </div>
         <div>
           <img
@@ -72,33 +78,37 @@
 
       <!--Speaker section-->
 
-      <section class="speakers" id="speakers">
-        <h2>2022 speakers</h2>
-        <div>
+      <section id="speakers">
+        <h2 class="speakers-heading">2022 speakers</h2>
+        
+        <div class="flex-container-2">
+        <div class="joe">
           <img src="images/joe.png" alt="image of Joe Schmoe" />
           <h3>Joe Schmoe</h3>
-          <p>
+          <p class="speaker-description">
             Joe Schmoe is a UX designer with Google and has been in the industry
             for 18 years
           </p>
         </div>
-        <div>
+        <div class="jane">
           <img src="images/jane.png" alt="image of Jane Doe" />
           <h3>Jane Doe</h3>
-          <p>
+          <p class="speaker-description">
             Jane Doe is a front end developer with Advania and has 10 years of
             experience
           </p>
         </div>
-        <div>
+        <div class="jon">
           <img src="images/jon.png" alt="image of Jón Jónsson" />
           <h3>Jón Jónsson</h3>
-          <p>
+          <p class="speaker-description">
             Jón Jónsson is a freelance UI designer who has worked on numerous
             high profile projects with companies such as Facebook, Google and
             Twitter
           </p>
         </div>
+        </div>
+
       </section>
 
       <!--Practical information section-->

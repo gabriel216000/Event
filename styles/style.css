@@ -8,7 +8,7 @@
 /*Here is the font applied to the webpage */
 body {
     font-family: 'Roboto Mono', monospace;
-
+    background-color: var(--primary-background);
 }
 
 
@@ -76,18 +76,76 @@ h1 {
 
 /*ABOUT*/
 
-.about {
+
+.flex-container {
+    display: flex;
     background-color: var(--secondary-background);
+    margin-top: -10%;
+    justify-content: center;
+    padding-top: 50px;
+    justify-content: space-between;
 }
 
+
 #about-image {
-    width: 400px;
+    width: 320px;
+    height: 335px;
+    margin-bottom: 50px;
+    margin-right: 400px;
+    
+}
+
+#header1 {
+    margin-left: 400px;
+    margin-top: -5px;
+}
+
+.about-text {
+    width: 100%;
+    max-width: 300px;
+    margin-left: 400px;
+    
+    
 }
 
 
 
 /*SPEAKERS*/
 
+.speakers-heading {
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.flex-container-2 {
+    background-color: var(--primary-background);
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    justify-content: space-evenly;
+
+    
+}
+
+.joe {
+    
+}
+
+.jane {
+
+}
+
+
+.jon {
+
+}
+
+
+.speaker-description {
+    width: 100%;
+    max-width: 270px;
+}
 
 
 /*PRACTICAL INFORMATION*/
