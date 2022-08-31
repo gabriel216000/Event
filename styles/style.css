@@ -31,7 +31,7 @@ body {
 }
 
 
-header {
+.header {
     padding-bottom: 200px;
     background-color: #D6F8B8;
     text-align: center;
@@ -54,5 +54,11 @@ h1 {
     font-size: 40px;
     padding-left: 50px;
     padding-bottom: 200px;
+}
+
+.introduction1 {
+    background-color: #ACDEAA;
+    padding-top: 20px;
+    padding-bottom: -40px;
 }
 
