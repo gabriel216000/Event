@@ -14,6 +14,7 @@ body {
 
 /*Here we customize how the buttons in the header look like */
 .headerbutton {
+    font-family: 'Roboto Mono', monospace;
     cursor: pointer;
     border: none;
     outline: inherit;
