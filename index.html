@@ -6,18 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebSwitch</title>
 
+
     <!--Favicon start-->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="favicon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="favicon/favicon-32x32.png"
-    />
     <link
       rel="icon"
       type="image/png"
@@ -27,6 +17,7 @@
     <link rel="manifest" href="favicon/site.webmanifest" />
     <!--Favicon end-->
 
+
     <!--Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -35,19 +26,24 @@
       rel="stylesheet"
     />
 
+
     <!--Here is the import of the CSS file-->
     <link rel="stylesheet" href="styles/style.css" />
 
-    <img class="project-image" src="images/front.jpg" alt="topimage">
-</head>
 
+</head>
   <body>
+
+
+    <!--Header section-->
+
     <header>
+      <img class="project-image" src="images/front.jpg" alt="topimage" id="header-image">
       <div class="buttons">
-        <button class="headerbutton">About</button>
-        <button class="headerbutton">Speakers</button>
-        <button class="headerbutton">Practical information</button>
-        <button class="headerbutton">Sign up</button>
+        <button class="headerbutton"><a href="#about">About</a></button>
+        <button class="headerbutton"><a href="#speakers">Speakers</a></button>
+        <button class="headerbutton"><a href="#practical-information">Practical information</a></button>
+        <button class="headerbutton"><a href="#sign-up">Sign up</a></button>
       </div>
 
       <div class="introduction">
@@ -57,44 +53,73 @@
     </header>
 
     <main>
-      <section id="about-section">
-        <div class="about">
-          <h2>What is WebSwitch</h2>
+
+
+      <!--About section-->
+
+      <section class="about" id="about">
+        <div>
+          <h2>What is WebSwitch?</h2>
             <p>
-            WebSwitch is hosted by the<br/>icelandic web development<br />industry.
-            This event is for everyone who<br />is new to the industry or<br />simply
-            curious about it. The main purpose of WebSwitch<br />is to generate
-            interest in web<br />development and empower people<br />to make
-            connections within the<br />icelandic tech community
-          </p>
+              WebSwitch is an annual public speaking event hosted by the icelandic web development industry. 
+              This event is for everyone who is new to the industry or simply curious about it. 
+              The main purpose of WebSwitch is to generate interest in web development and empower people to 
+              make connections within the icelandic tech community.
+            </p>
         </div>
         <div>
-          <h1>2022 speakers</h1>
-          <div>
-            <p>Joe Schmoe</p>
-            <p>
-              Joe Schmoe is a UX<br />designer with Google<br />and has been in
-              the<br />industry for 18 years,
-            </p>
-          </div>
-          <div>
-            <p>Jane Doe</p>
-            <p>
-              Jane Doe is a front<br />end developer with<br />Advania and has
-              10<br />years of experience
-            </p>
-          </div>
-          <div>
-            <p>Jón Jónsson</p>
-            <p>
-              Jón Jónsson is a<br />freelance UI designer<br />
-              who has worked on<br />numerous high profile<br />projects with<br />companies
-              such as<br />Facebook, Google and Twitter
-            </p>
-          </div>
+          <img src="images/aboutimage.jpg" alt="people coding together on laptops" id="about-image"/>
         </div>
       </section>
-      <section class="signup-section">
+
+
+       <!--Speaker section-->
+
+      <section class="speakers" id="speakers">
+         <h2>2022 speakers</h2>
+         <div>
+            <img src="images/joe.png" alt="image of Joe Schmoe"/>
+            <h3>Joe Schmoe</h3>
+            <p>Joe Schmoe is a UX designer with Google and has been in the industry for 18 years</p>
+         </div>
+         <div>
+          <img src="images/jane.png" alt="image of Jane Doe"/>
+          <h3>Jane Doe</h3>
+          <p>Jane Doe is a front end developer with Advania and has 10 years of experience</p>
+         </div>
+         <div>
+           <img src="images/jon.png" alt="image of Jón Jónsson"/>
+           <h3>Jón Jónsson</h3>
+           <p>Jón Jónsson is a freelance UI designer who has worked on numerous high profile projects with companies such as Facebook, Google and Twitter</p>
+         </div>
+      </section>
+
+
+      <!--Practical information section-->
+
+      <section class="practical-information" id="practical-information">
+        <div>
+          <h4>WebSwitch 2020 takes place at Harpa, on 2. September 2022</h4>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1739.6023482305811!2d-21.9324603!3d64.1503943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48d674d3023a19c7%3A0xdbbf050da40f5d28!2sHarpan%2C%20101%20Reykjav%C3%ADk!5e0!3m2!1sda!2sis!4v1661953014795!5m2!1sda!2sis" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div>
+          <h2>2022 schedule</h2>
+          <uo>
+            <li>10:00: Doors open</li>
+            <li>11:00: Joe Schmoe</li>
+            <li>12:00: Jane Doe</li>
+            <li>12:45: Lunch break</li>
+            <li>13:15: Jón Jónsson</li>
+            <li>14:00 Q&A</li>
+            <li>14:00: Networking with light refreshments served</li>
+          </uo>
+        </div>
+      </section>
+
+
+      <!--Sign up section-->
+
+      <section class="signup-section" id="sign-up">
         <div>
           <p>Sign up for free!</p>
           <input placeholder="Name" />
@@ -110,6 +135,8 @@
           </p>
         </div>
       </section>
+
+
       <!--Footer section-->
 
       <footer>

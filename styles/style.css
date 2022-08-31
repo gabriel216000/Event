@@ -12,6 +12,17 @@ body {
 }
 
 
+/*HEADER*/
+
+#header-image {
+    width: 1200px;
+}
+
+/*Here we have the background in the header */
+header {
+    background-color: #D6F8B8;
+}
+
 /*Here we customize how the buttons in the header
 look like and their location */
 .headerbutton {
@@ -24,15 +35,60 @@ look like and their location */
     color: inherit;
     margin-left: 50px;
     padding-top: 20px;
-
 }
 
+.buttons {
+    text-align: center;
+}
 
 /*Here we add a hover over the buttons in the header */
 .headerbutton:hover {
     opacity: 0.7;
 }
 
+/*Customization of the headline */
+.introduction {
+    font-weight: 150;
+    padding-top: 100px;
+
+}
+
+/*Here is a customization of the headline */
+h1 {
+    font-size: 100px;
+    padding-left: 50px;
+}
+
+/*This is the customization of the location and date */
+.landd {
+    color: white;
+    font-size: 40px;
+    padding-left: 50px;
+    padding-bottom: 200px;
+}
+
+
+/*ABOUT*/
+
+.about {
+    background-color: var(--secondary-background);
+}
+
+#about-image {
+    width: 400px;
+}
+
+
+
+/*SPEAKERS*/
+
+
+
+/*PRACTICAL INFORMATION*/
+
+
+
+/*FOOTER*/
 
 footer {
    text-align: center;
@@ -60,48 +116,6 @@ footer {
 a {
     text-decoration: none;
     color: #000000;
-}
-
-
-.header {
-    padding-bottom: 200px;
-}
-/*Here we have the background in the header */
-
-
-
-/*Here we have the background in the header */
-header {
-    background-color: #D6F8B8;
-}
-/*Location of the buttons on top of the page */
-.buttons {
- text-align: center;
-}
-
-
-/*Customization of the headline */
-.introduction {
-    background-color: #D6F8B8;
-    font-weight: 150;
-    padding-top: 100px;
-
-}
-/*Here is a customization of the heading 1 */
-h1 {
-    font-size: 100px;
-    padding-left: 50px;
-}
-/*This is the customization of the location and date */
-.landd {
-    color: white;
-    font-size: 40px;
-    padding-left: 50px;
-    padding-bottom: 200px;
-}
-
-.about {
-    background-color: #ACDEAA;
 }
 
 
