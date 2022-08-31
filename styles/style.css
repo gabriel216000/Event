@@ -51,12 +51,12 @@ header {
     padding-top: 100px;
 
 }
-
+/*Here is a customization of the heading 1 */
 h1 {
     font-size: 100px;
     padding-left: 50px;
 }
-
+/*This is the customization of the location and date */
 .landd {
     color: white;
     font-size: 40px;
@@ -64,3 +64,6 @@ h1 {
     padding-bottom: 200px;
 }
 
+.about {
+    background-color: #ACDEAA;
+}
