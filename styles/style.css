@@ -97,12 +97,11 @@ h1 {
 
 .flex-container {
     display: flex;
-    background-color: var(--secondary-background);
-    margin-top: -10%;
     justify-content: center;
+    justify-content: space-between;
+    background-color: var(--secondary-background);
     padding-top: 100px;
     padding-bottom: 60px;
-    justify-content: space-between;
 }
 
 
@@ -128,30 +127,27 @@ h1 {
 /*margin-left: 400px;*/
 
 
+
 /*SPEAKERS*/
 
-.speakers-heading {
-    text-align: center;
-    margin-top: 90px;
-}
-
-
 .flex-container-2 {
-    background-color: var(--primary-background);
     display: flex;
-    justify-content: center;
-    padding-top: 40px;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: var(--primary-background);
+    padding-top: 40px;
     padding-bottom: 90px;
-
-
 }
-
 
 .speaker-description {
     width: 100%;
     max-width: 270px;
+}
+
+.speakers-heading {
+    text-align: center;
+    margin-top: 90px;
 }
 
 
