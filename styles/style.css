@@ -16,7 +16,8 @@ body {
 
 
 section {
-    padding: 200px;
+    padding: 0px 25% 0px 25%;
+    flex-wrap: wrap;
 }
 
 /*HEADER*/
@@ -109,23 +110,20 @@ h1 {
     width: 350px;
     height: 335px;
     margin-bottom: 50px;
-    margin-right: 400px;
-
-}
+}  
+/*margin-right: 400px;*/
 
 #header1 {
-    margin-left: 400px;
+    
     margin-top: -5px;
 }
+/*margin-left: 400px;*/
 
 .about-text {
     width: 100%;
     max-width: 500px;
-    margin-left: 400px;
-
-
 }
-
+/*margin-left: 400px;*/
 
 
 /*SPEAKERS*/
@@ -141,7 +139,8 @@ h1 {
     display: flex;
     justify-content: center;
     padding-top: 40px;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    flex-wrap: wrap;
 
 
 }
@@ -161,8 +160,6 @@ h1 {
     background-color: var(--secondary-background);
     justify-content: center;
     justify-content: space-between;
-    justify-content: space-evenly;
-    padding: 40px 0px 50px 0px;
 }
 #schedule{
     text-align: justify;
@@ -172,20 +169,26 @@ ul{
     line-height: 40px;
 }
 #schedule-heading{
-    margin-left: 40px;
+    
 }
+/*margin-left: 40px;*/
+
+
+
 /*SIGN UP SECTION*/
 
 .flex-container-4 {
     display: flex;
     justify-content: center;
     justify-content: space-between;
-    justify-content: space-evenly;
-    padding: 40px 50px 20px 50px;
+    
 }
 .signup-text {
     width: 100%;
-    max-width: 300px;
+    max-width: 400px;
+    
+
+    
 
 
 }
@@ -193,13 +196,30 @@ ul{
     display:flex;
     flex-flow: column;
 }
+
+input {
+    height: 30px;
+    width: 350px;
+    border: none;
+}
+
 .inputbox {
-    margin-bottom: 30px;
-
+    margin-bottom: 20px;
+    border: none;
+    font-family:'Roboto Mono', monospace;
+    font-size: 20px;
+    
 }
-.input-size{
 
+.submit-button {
+    background-color: var(--secondary-background);
+    width: 150px;
+    height: 30px;
 }
+
+
+
+
 /*FOOTER*/
 
 footer {
@@ -216,6 +236,8 @@ footer {
 #social-media {
     margin-top: 25px;
     margin-bottom: 50px;
+    
+    
 
 }
 #contact-info {
