@@ -100,17 +100,19 @@ h1 {
     background-color: var(--secondary-background);
     margin-top: -10%;
     justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 60px;
     justify-content: space-between;
 }
 
 
 #about-image {
-    width: 350px;
-    height: 335px;
+    width: 100%;
+    max-width: 505px;
+    height: auto;
     margin-bottom: 50px;
 }  
+
 /*margin-right: 400px;*/
 
 #header1 {
@@ -130,7 +132,7 @@ h1 {
 
 .speakers-heading {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 90px;
 }
 
 
@@ -141,10 +143,10 @@ h1 {
     padding-top: 40px;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding-bottom: 90px;
 
 
 }
-
 
 
 .speaker-description {
@@ -160,6 +162,8 @@ h1 {
     background-color: var(--secondary-background);
     justify-content: center;
     justify-content: space-between;
+    padding-top: 70px;
+    padding-bottom: 80px;
 }
 #schedule{
     text-align: justify;
@@ -169,7 +173,7 @@ ul{
     line-height: 40px;
 }
 #schedule-heading{
-    
+    padding-left: 40px;
 }
 /*margin-left: 40px;*/
 
@@ -181,6 +185,7 @@ ul{
     display: flex;
     justify-content: center;
     justify-content: space-between;
+    padding-top: 70px;
     
 }
 .signup-text {
