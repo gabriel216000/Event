@@ -9,6 +9,7 @@
 body {
     font-family: 'Roboto Mono', monospace;
     background-color: var(--primary-background);
+    margin:0%;
 }
 
 
@@ -21,6 +22,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 120vh;
 
 }
 
@@ -92,7 +94,7 @@ h1 {
     height: 335px;
     margin-bottom: 50px;
     margin-right: 400px;
-    
+
 }
 
 #header1 {
@@ -104,8 +106,8 @@ h1 {
     width: 100%;
     max-width: 300px;
     margin-left: 400px;
-    
-    
+
+
 }
 
 
@@ -125,7 +127,7 @@ h1 {
     padding-top: 40px;
     justify-content: space-evenly;
 
-    
+
 }
 
 
@@ -168,8 +170,8 @@ ul{
 .signup-text {
     width: 100%;
     max-width: 300px;
-    
-    
+
+
 }
 .flex-section {
     display:flex;
