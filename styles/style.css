@@ -128,18 +128,6 @@ h1 {
     
 }
 
-.joe {
-    
-}
-
-.jane {
-
-}
-
-
-.jon {
-
-}
 
 
 .speaker-description {
@@ -150,8 +138,50 @@ h1 {
 
 /*PRACTICAL INFORMATION*/
 
+.flex-container-3 {
+    display: flex;
+    background-color: var(--secondary-background);
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    padding: 40px 0px 50px 0px;
+}
+#schedule{
+    text-align: justify;
+}
+ul{
+    list-style: none;
+    line-height: 40px;
+}
+#schedule-heading{
+    margin-left: 40px;
+}
+/*SIGN UP SECTION*/
 
+.flex-container-4 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    padding: 40px 50px 20px 50px;
+}
+.signup-text {
+    width: 100%;
+    max-width: 300px;
+    
+    
+}
+.flex-section {
+    display:flex;
+    flex-flow: column;
+}
+.inputbox {
+    margin-bottom: 30px;
 
+}
+.input-size{
+
+}
 /*FOOTER*/
 
 footer {
