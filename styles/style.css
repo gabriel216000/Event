@@ -187,12 +187,9 @@ ul{
 .signup-text {
     width: 100%;
     max-width: 400px;
-    
-
-    
-
-
 }
+
+
 .flex-section {
     display:flex;
     flex-flow: column;
@@ -218,7 +215,9 @@ input {
     height: 30px;
 }
 
-
+.submit-button:hover {
+    color: #3d7566;
+}
 
 
 /*FOOTER*/

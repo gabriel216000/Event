@@ -1,9 +1,7 @@
-let mybutton = document.querySelector('submit-button');
-function setUserName() {
-  const myName = prompt('Please enter your account.');
-  const myName2 = prompt('Please enter your password.');
-}
+let myButton = document.querySelector('.submit-button');
+let div = document.querySelector('.flex-section');
 
-mybutton.onclick = () => {
-    setUserName();
+  myButton.onclick = () => {
+    div.innerHTML += 'Congratulations <br> you just signed up <br> Please check your email <br> for more information';
   }
+  
