@@ -5,3 +5,10 @@ let div = document.querySelector('.flex-section');
     div.innerHTML += 'Congratulations <br> you just signed up <br> Please check your email <br> for more information';
   }
   
+
+
+
+
+
+
+

@@ -37,8 +37,14 @@ header {
 /*Here we customize the style of the buttons in the navigation bar and their location */
 
 #buttons {
+    position:fixed;
+    
+    width:100%;
+    top:0;
+    height: 120px; 
     text-align: center;
 }
+      
 
 .headerbutton {
     background: transparent;
@@ -47,7 +53,7 @@ header {
     font-family: 'Roboto Mono', monospace;
     font-size: 25px;
     font-weight: 800;
-    margin-left: 50px;
+    margin-right: 50px;
     margin-top: 35px;
 }
 
@@ -211,6 +217,7 @@ input {
     background-color: var(--secondary-background);
     width: 150px;
     height: 30px;
+    cursor: pointer;
 }
 
 .submit-button:hover {
